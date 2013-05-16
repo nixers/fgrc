@@ -27,7 +27,7 @@ CmsRails::Application.configure do
 
   # TODO: enable asset compression
   config.assets.compress = false
-  config.assets.compile = false # These should be precompiled
+  config.assets.compile = true # These should be precompiled
 
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this

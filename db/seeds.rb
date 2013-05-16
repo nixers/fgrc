@@ -96,3 +96,4 @@ ActiveRecord::Base.transaction do
     :kind => Option.options_for(:directive_kind).find_by_title('Company Controls')
   })
 end
+

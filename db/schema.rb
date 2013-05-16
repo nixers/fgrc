@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20130427013615) do
 
   create_table "accounts", :force => true do |t|
     t.string   "username"
-    t.string   "email"
+    t.string   "email" 
     t.string   "crypted_password"
     t.string   "role"
     t.string   "persistence_token"
