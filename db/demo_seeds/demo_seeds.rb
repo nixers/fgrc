@@ -14,7 +14,7 @@ ActiveRecord::Base.transaction do
     Account.
       where(:email => "#{name}@t.com").
       first_or_create!(
-        {:password => name, :password_confirmation => name, :role => role},
+        {:password => name, :password_confirmation => name , :role => role},
         :without_protection => true)
   end
 

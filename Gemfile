@@ -12,6 +12,8 @@ gem 'thinking-sphinx', '~> 2.0.14'
 
 gem 'remotipart'
 
+
+
 #gem 'gdata-ruby-util', '1.1.2'
 gem 'gdata_19', '~> 1.1.5', :require => 'gdata'
 
