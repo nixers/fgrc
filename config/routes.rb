@@ -324,7 +324,7 @@ CmsRails::Application.routes.draw do
   # About page
   match 'about' => 'welcome#about', :as => 'about'
   match 'placeholder' => 'welcome#placeholder', :as => 'placeholder'
-  match 'login_dispatch' => 'welcome#login_dispatch', :as => 'login_dispatch'
+  
   get 'welcome/reload'
 
   # See how all your routes lay out with "rake routes"
